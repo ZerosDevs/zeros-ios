@@ -1,0 +1,9 @@
+
+target 'zeros', :exclusive => true do
+    pod "zeros", :path => "../"
+
+    pod 'Specta', '~> 0.2.1'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'EXPMatchers+FBSnapshotTest'
+end
